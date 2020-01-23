@@ -15,24 +15,12 @@ Wildfire model generally use predicitive models to predict the fire growth, howe
 
 ## Data
 Simulated Data :- http://www.shodor.org/interactivate/activities/FireAssessment/
-The input training images are the daily
-(mid-night to mid-night) area burned images for a particular
-wildfire. For example, if a wildfire burned for 6 days, we will
-have 6 training images for this wildfire from day 1 to day 6.
-The goal is to train the model to learn the pattern of wildfire
-images for first 5 days, and the model can predict the fire
-image at day 6. To simplify the training task, we categorized
-the training images, where 0 represents unburned area and
-1 represents burned area. The feature variables (e.g, weather
-and fuel moisture) are also prepared as a binary image and the
-values in the training images are normalized to 0-1. Details of
-each data preparation step are described as follows.
-
-
 
 ### Division of Data
 
-The data has been divi
+The input training images are the daily (mid-night to mid-night) area burned images for a particular wildfire. For example, if a wildfire burned for 6 days, we will have 6 training images for this wildfire from day 1 to day 6.
+The goal is to train the model to learn the pattern of wildfire images for first 5 days, and the model can predict the fire
+image at day 6. To simplify the training task, we categorized the training images, where 0 represents unburned area and 1 represents burned area. The feature variables (e.g, weather and fuel moisture) are also prepared as a binary image and the values in the training images are normalized to 0-1. Details of each data preparation step are described as follows.
 
 ------
 

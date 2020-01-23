@@ -35,12 +35,12 @@ $ jupyter notebook
 ```
 There are a few cases in which the problem statement is divided.
 We have divided the the problem statement into 4 problem that will be solved chronologically. 
-- N + 1th frame prediction with Simulated Data Models. `Sample Data`
+- N + 1th frame prediction with Simulated Data Models. `SampleData`
 - N + 1th frame prediction with external features using simple CNN model. `tiffworksheet`
 - N + 1th frame prediction with external features using ConvLSTM2D model. `WildfirePredWithAdditionalFeatures`
 
 
-
+If you want to try model without any additional features, please open file  [SampleData.py] (http://localhost:8888/notebooks/SampleData.ipynb).
 If you want to try model without any additional features, please open file  [tiffworksheet.py](http://localhost:8888/notebooks/tiffworksheet.ipynb).
  If you want to work on the model with additional features that predicts n + 1th day image, please run [WildfirePredWithAdditionalFeatures.py](http://localhost:8888/notebooks/WildfirePredWithAdditionalFeatures.ipynb) contain supplementary features.
 

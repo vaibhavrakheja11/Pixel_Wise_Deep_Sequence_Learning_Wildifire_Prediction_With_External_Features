@@ -1,6 +1,6 @@
 ## Deep Sequence learning for wildfire spread prediction
 
-## Projet Introduction
+## Project Introduction
 
 In North America, wildfires occur frequently and have direct impacts on society, economy, and environment. In Canada, wildfire management agencies spend 800 million dollars each year on wildfire management, which is projected to increase due to the human-introduced climate change. Therefore, improving the efficiency of the fire management decision-making process is one of the most important tasks for wildfire management agencies. In particular, wildfire spread prediction is one of the essential yet challenging tasks. 
 
